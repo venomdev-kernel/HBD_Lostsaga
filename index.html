@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Happy Birthday Lostsaga</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		
+		<!--[if IE]>
+			<script type="text/javascript">
+				var console = { log: function() {} };
+			</script>
+		<![endif]-->
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/toggle-menu.js"></script>
+	</head>
+	<body>
+		<!-- Header -->
+		<div id="header">
+			<div class="me1" id="me">
+				<center><img src="icon/me2.png" /></center>
+				<a class="btn-responsive" href="#"><img onmouseover="this.src='icon/navicon2.png'" onmouseout="this.src='icon/navicon1.png'" src="icon/navicon1.png" /></a>
+				<nav class="effect-2">
+					<a href="http://lostsaga.gemscool.com">LOSTSAGA</a>
+				</nav>
+			</div>
+			<div id="responsive-menu">
+				<nav>
+					<a href="http://lostsaga.gemscool.com">LOSTSAGA</a>
+				</nav>
+			</div>
+			<div class="hbd1" id="hbd">
+				<h1 class="anniversary">Anniversary 4th</h1>
+				<center><img src="images/hbd.png" /></center>
+				<div id="ucapan">
+					<h1>I Hope, You Can Be The Great Game In Indonesia</h1>
+				</div>
+			</div>
+		</div>
+		<!-- Coding Partner -->
+		<div id="partner">
+			Coding Partner
+			<center>
+				<img src="icon/html.png" />
+				<img src="icon/css.png" />
+				<img src="icon/java.png" />
+				<img src="icon/jquery.png" />
+			</center>
+		</div>
+		<!-- About Me -->
+		<div class="about-me1" id="about-me">
+			<h1>About Me</h1>
+			<center><img src="images/my_ls.jpg" /></center>
+		</div>
+		<!-- Thanks Lostsaga -->
+		<div id="thanks">
+			<center>Thanks For Everything Lostsaga</center>
+		</div>
+		<!-- My Team -->
+		<div class="my-team1" id="my-team">
+			<h1>My Team</h1>
+			<center><img src="images/dani.jpg" /></center>
+			<center><img src="images/aries.jpg" /></center>
+			<center><img src="images/yonard.jpg" /></center>
+			<center><img src="images/odang.jpg" /></center>
+		</div>
+		
+		<!-- Back to top -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//hilang atau munculnya tombol back to top
+				$(window).scroll(function(){
+					if($(this).scrollTop() > 100){
+						$('.top').fadeIn(200);
+					}else{
+						$('.top').fadeOut(200);
+					}
+				});
+				
+				$('.top').click(function(event){
+					event.preventDefault();
+					
+					$('html, body').animate({scrollTop: 0}, 300);
+				});
+			});
+		</script>
+		<a href="#" title="scroll to top" class="top"><img onmouseover="this.src='icon/top.png'" onmouseout="this.src='icon/top.png'" src="icon/top.png"></a>
+		<div id="footer">
+			<center>Copyright &copy; 2015 | Designed by Rido Aji Darmawan</center>
+		</div>
+	</body>
+</html>

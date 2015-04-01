@@ -1,0 +1,21 @@
+*** BACA DULU ***
+
+	-- Selamat Ulang Tahun yang ke-4 Lostsaga --
+	-- Semoga Selalu Berprestasi dan Panjang Umur :v --
+
+Ini adalah project kartu ucapan selamat ulang tahun 
+berbentuk web, saya membuat project ini karena ingin mengikuti event
+Lostsaga wish, dengan ini moga2 saya bisa memenangkan salah satu hadiah
+:v ckckckckck ...
+
+Nick : Vapers
+Judul : Happy Birthday Lostsaga
+
+	___ Cara mengakses web ___
+1. Extract dulu file .rar/.zip
+2. Lalu, buka file index.html di browser anda
+3. (Ini hanya tambahan), kalo bisa jangan di buka di browser IE ...
+4. Thanks
+
+	--- Designed by Rido Aji Darmawan ---
+	--- Siswa SMK N 11 Semarang ---
